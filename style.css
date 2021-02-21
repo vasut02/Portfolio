@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: black;
+    background: #111;
 }
 .navbar .max-width{
     display: flex;
@@ -180,7 +180,6 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    /* background: url("images/banner.png") no-repeat center; */
     height: 100vh;
     color: rgb(0, 0, 0);
     min-height: 500px;
@@ -224,6 +223,23 @@ section .title::after{
     background: none;
 }
 
+/* project section */
+.project{
+    background: #111;
+}
+
+.project .title{
+    color: white;
+}
+.project .title::after{
+    background: black;
+    content: "where i use my skills";
+}
+
+.project .title::before{
+    background:white;
+    width: 280px;
+}
 /* about section styling */
 .about .title::after{
     content: "who i am";

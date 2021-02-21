@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="indexdark.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -28,6 +29,7 @@
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#project" class="menu-btn">projects</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -43,7 +45,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Vasu Tiwari</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="#">Hire me</a>
+                <a href="https://drive.google.com/file/d/1BLKBC7-lHOiLulp9gFv5KB6SbrCbwqop/view?usp=sharing">Resume</a>
             </div>
         </div>
         <img id="section-image" src="studying.png">
@@ -64,7 +66,7 @@
                         Secondary School, Jabalpur. I love to Build and Create exciting stuffs and love to explore and
                         learn new things. Apart from coding and studies, I Space enthusiast too. My inspiration is Elon
                         Musk</p>
-                    <a href="#">Download CV</a>
+                    <a href="https://drive.google.com/file/d/1BLKBC7-lHOiLulp9gFv5KB6SbrCbwqop/view?usp=sharing">Resume</a>
                 </div>
             </div>
         </div>
@@ -116,7 +118,7 @@
                         recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi.
                         Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam
                         alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
-                    <a href="#">Read more</a>
+                    <!-- <a href="#">Read more</a> -->
                 </div>
                 <div class="column right">
                     <div class="bars">
@@ -157,6 +159,64 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    
+
+    <!-- project section start -->
+    <section class="project" id="project">
+        <h2 class="title">Latest Projects</h2>
+        <div class="wrapper">
+        <a href="tic_tac_toe.html">
+            <div class="cardbox">
+              <div class="card-banner">
+                <p class="category-tag popular">Popular</p>
+                <img class="banner-img" src='images/tic-tac-toe.png' alt=''>
+              </div>
+              <div class="card-body">
+                <p class="blog-hashtag">#webdevelopment </p>
+                <h2 class="blog-title">Multiplayer Tic-Tac-Toe</h2>
+                <p class="blog-description">It is a multiplayer tic-tac-toe game website where player can join or create room and invite other friends to play the game and they can
+                    even chat through chat section . This website is build using react js , node js , express js , mongo DB and socket.io and deployed in AWS</p>
+        
+                
+              </div>
+            </div>
+        </a>
+        
+        <a href="Chat.html">
+            <div class="cardbox">
+              <div class="card-banner">
+                <p class="category-tag technology">Technology</p>
+                <img class="banner-img" src='images/Chat.png' alt=''>
+              </div>
+              <div class="card-body">
+                <p class="blog-hashtag">#WebDevelopment</p>
+                <h2 class="blog-title">Chat Application</h2>
+                <p class="blog-description">This is a chat application where user can join any room or create room
+                    and chat with other peers or strangers . This website is build using
+                    react js , node js , express js , mongo DB and socket.io . </p>
+        
+              </div>
+            </div>
+        </a>
+        
+        <a href="UserAuthentication.html">
+            <div class="cardbox">
+              <div class="card-banner">
+                <p class="category-tag psychology">Security</p>
+                <img class="banner-img" src='images/User_Authentication.png' alt=''>
+              </div>
+              <div class="card-body">
+                <p class="blog-hashtag">#backend</p>
+                <h2 class="blog-title">User Authentication System</h2>
+                <p class="blog-description">I have Created a user Authentication system where user can enter website by login if already registered or simply by registration build whith mongodb , nodejs and express </p>
+                        
+              </div>
+            </div>
+        
+          </div>
+        </a>
     </section>
 
     <!-- contact section start -->
@@ -219,7 +279,7 @@
 
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href="https://www.linkedin.com/in/vasu-tiwari-5960481b0/" target="_blank">Vasu Tiwari</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+        <span>Created By <a href="https://www.linkedin.com/in/vasu-tiwari-5960481b0/" target="_blank">Vasu Tiwari</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
 </body>
 <script src="script.js">

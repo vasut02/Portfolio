@@ -1,0 +1,36 @@
+
+.blogSection{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.blogSection h1{
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.category{
+    font-family: 'Ubuntu', sans-serif;
+    color: crimson;
+    font-weight: 100;
+    text-align: center;
+}
+
+.blogSection p {
+    width: 500px;
+    text-align: left;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+.featured_image{
+    width: 1000px;
+    border: 1px solid black;
+}
+
+.post-meta-wrapper{
+    margin: 20px;
+    list-style-type:none;
+    margin-bottom: 80px;
+}
