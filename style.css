@@ -233,12 +233,12 @@ section .title::after{
 }
 .project .title::after{
     background: black;
-    content: "where i use my skills";
+    content: "Projects";
 }
 
 .project .title::before{
     background:white;
-    width: 280px;
+    width: 200px;
 }
 /* about section styling */
 .about .title::after{

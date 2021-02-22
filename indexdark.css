@@ -122,3 +122,10 @@
   color: var(--clr-gray-med);
   font-size: 0.9rem;
 }
+@media (max-width: 947px){
+
+  .cardbox {
+    width: 90%;
+    
+  }
+}
